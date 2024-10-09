@@ -84,7 +84,7 @@ const Recommendation: React.FC = () => {
         bgGradient="linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75)),
         url('images/xw6wqhhjubh31.webp')"
       >
-        Top Communities
+        Лучшие сообщества
       </Flex>
       <Flex direction="column">
         {loading ? (
@@ -169,7 +169,7 @@ const Recommendation: React.FC = () => {
                   isViewAll ? setIsViewAll(false) : setIsViewAll(true)
                 }
               >
-                {isViewAll ? "Collapse Items" : "View All"}
+                {isViewAll ? "Collapse Items" : "Просмотреть все"}
               </Button>
             </Box>
           </>
