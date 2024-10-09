@@ -169,7 +169,7 @@ const Recommendation: React.FC = () => {
                   isViewAll ? setIsViewAll(false) : setIsViewAll(true)
                 }
               >
-                {isViewAll ? "Collapse Items" : "Просмотреть все"}
+                {isViewAll ? "Свернуть список" : "Просмотреть все"}
               </Button>
             </Box>
           </>
