@@ -96,7 +96,7 @@ const UserMenu: React.FC<UserMenuProps> = ({ user }) => {
               isChecked={colorMode === "dark" ? true : false}
               onChange={toggleColorMode}
             />
-            <Text>Dark Mode</Text>
+            <Text>Темный режим</Text>
           </Flex>
         </MenuItem>
         {user ? (
@@ -109,7 +109,7 @@ const UserMenu: React.FC<UserMenuProps> = ({ user }) => {
             >
               <Flex align="center" onClick={handelNavigatePage}>
                 <Icon fontSize={20} mr={2} as={CgProfile} />
-                Profile
+                Профиль
               </Flex>
             </MenuItem>
             <MenuDivider />
@@ -121,7 +121,7 @@ const UserMenu: React.FC<UserMenuProps> = ({ user }) => {
             >
               <Flex align="center">
                 <Icon fontSize={20} mr={2} as={MdOutlineLogin} />
-                Log Out
+                Выйти
               </Flex>
             </MenuItem>
           </>
@@ -135,7 +135,7 @@ const UserMenu: React.FC<UserMenuProps> = ({ user }) => {
             >
               <Flex align="center">
                 <Icon fontSize={20} mr={2} as={MdOutlineLogin} />
-                Log In / Sign Up
+                Войти / Зарегистрироваться
               </Flex>
             </MenuItem>
           </>
