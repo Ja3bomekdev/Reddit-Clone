@@ -43,9 +43,9 @@ const AuthModel: React.FC = () => {
         <ModalOverlay />
         <ModalContent>
           <ModalHeader textAlign="center">
-            {modelState.view === "login" && "Login"}
-            {modelState.view === "signup" && "Sign Up"}
-            {modelState.view === "resetPassword" && "Reset Password"}
+            {modelState.view === "login" && "Авторизоваться"}
+            {modelState.view === "signup" && "Зарегистрироваться"}
+            {modelState.view === "resetPassword" && "Сбросить пароль"}
           </ModalHeader>
           <ModalCloseButton />
           <ModalBody
