@@ -31,7 +31,7 @@ const Premium: React.FC = () => {
         </Stack>
       </Flex>
       <Button height="30px" bg="brand.100">
-        Try Now
+        Попробуйте сейчас
       </Button>
     </Flex>
   );
