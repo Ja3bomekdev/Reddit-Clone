@@ -44,13 +44,13 @@ const PersonalHome: React.FC = () => {
       <Flex direction="column" p="12px">
         <Flex align="center" mb={2}>
           <Icon as={FaReddit} fontSize={50} color="brand.100" mr={2} />
-          <Text fontWeight={600}>Home</Text>
+          <Text fontWeight={600}>Домашняя страница</Text>
         </Flex>
         <Stack spacing={3}>
           <Text fontSize="9pt">
-            Your personal Reddit frontpage, built for you.
+            Ваша персональная главная страница Reddit, созданная специально для вас.
           </Text>
-          <Button height="30px">Create Post</Button>
+          <Button height="30px">Создать пост</Button>
           <Button
             disabled={!user}
             variant="outline"
