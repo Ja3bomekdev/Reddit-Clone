@@ -59,7 +59,7 @@ const PersonalHome: React.FC = () => {
               setOpen(true);
             }}
           >
-            Create Community
+            Создать сообщество
           </Button>
         </Stack>
       </Flex>
