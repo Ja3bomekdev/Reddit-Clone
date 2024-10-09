@@ -48,7 +48,7 @@ const PersonalHome: React.FC = () => {
         </Flex>
         <Stack spacing={3}>
           <Text fontSize="9pt">
-            Ваша персональная главная страница Reddit, созданная специально для вас.
+            Ваша персональная главная страница ТолкРу , созданная специально для вас.
           </Text>
           <Button height="30px">Создать пост</Button>
           <Button
